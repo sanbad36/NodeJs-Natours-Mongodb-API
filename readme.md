@@ -758,7 +758,4 @@ Data sanitize
 
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2049.png)
 
-## Acknowledgement
-
-* This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
 

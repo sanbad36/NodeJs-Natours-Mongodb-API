@@ -1,15 +1,40 @@
 # Natours Application
 
+## Demonstration
+#### Home Page :
+![natoursHomePageonline-video-cutt](https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif)
 
-# Node JS
+#### Tour Details :
+![tourOverviewonline-video-cutterc](https://user-images.githubusercontent.com/58518192/72606859-a0b78900-3949-11ea-8f0d-ef44c789957b.gif)
 
-`npm -i express`
+#### Payment Process :
+![paymentprocess-1-ycnhrceamp4-7fW](https://user-images.githubusercontent.com/58518192/72606973-d9eff900-3949-11ea-9a2e-f84a6581bef3.gif)
 
-`npm -i morgan`
+#### Booked Tours :
+![rsz_bookedtours](https://user-images.githubusercontent.com/58518192/72607747-6a7b0900-394b-11ea-8b9f-5330531ca2eb.png)
 
-`npm -i mongoose`
 
-<I have used the MongoDB Atlas>
+#### User Profile :
+![rsz_userprofile](https://user-images.githubusercontent.com/58518192/72607635-44edff80-394b-11ea-8943-64c48f6f19aa.png)
+
+#### Admin Profile :
+![rsz_adminprofile](https://user-images.githubusercontent.com/58518192/72607648-4d463a80-394b-11ea-972f-a73160cfaa5b.png)
+
+
+## Build With
+
+* [NodeJS](https://nodejs.org/en/) - JS runtime environment
+* [Express](http://expressjs.com/) - The web framework used
+* [Mongoose](https://mongoosejs.com/) - Object Data Modelling (ODM) library
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Cloud database service
+* [Pug](https://pugjs.org/api/getting-started.html) - High performance template engine
+* [JSON Web Token](https://jwt.io/) - Security token
+* [ParcelJS](https://parceljs.org/) - Blazing fast, zero configuration web application bundler
+* [Stripe](https://stripe.com/) - Online payment API
+* [Postman](https://www.getpostman.com/) - API testing
+* [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
+* [Heroku](https://www.heroku.com/) - Cloud platform
+
 
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled.png)
 
@@ -362,27 +387,8 @@ readFilePro(`${__dirname}/dog.txt`)
     console.log(err);
   });
 */
+
 ```
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
 
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2025.png)
 
@@ -426,9 +432,6 @@ console.log(`App running on port ${port}...`);
 
 ---
 
----
-
----
 
 ```jsx
 
@@ -555,7 +558,6 @@ db.tours.find({ $or: [ {price: {$lt: 5000}} , {rating: {$gte: 4.8}} ]})
 
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2035.png)
 
- 
 
 ```
 // Creating the Schema
@@ -755,3 +757,8 @@ Data sanitize
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2048.png)
 
 ![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2049.png)
+
+## Acknowledgement
+
+* This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
+

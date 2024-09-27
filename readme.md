@@ -35,45 +35,6 @@
 * [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
 * [Heroku](https://www.heroku.com/) - Cloud platform
 
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%201.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%202.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%203.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%204.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%205.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%206.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%207.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%208.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%209.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2010.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2011.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2012.png)
-
----
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2013.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2014.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2015.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2016.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2017.png)
-
 ```jsx
 const http = require('http');
 
@@ -123,7 +84,6 @@ fs.readFile("test-file.txt", () => {
 console.log("Hello from the top-level code");
 ```
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2018.png)
 
 ```jsx
 const EventEmitter = require("events");
@@ -178,9 +138,6 @@ server.listen(8000, "127.0.0.1", () => {
 });
 ```
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2019.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2020.png)
 
 ```jsx
 const fs = require("fs");
@@ -220,13 +177,6 @@ server.listen(8000, "127.0.0.1", () => {
 
 ---
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2021.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2022.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2023.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2024.png)
 
 ```jsx
 // console.log(arguments);
@@ -390,7 +340,6 @@ readFilePro(`${__dirname}/dog.txt`)
 
 ```
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2025.png)
 
 `npm init`
 
@@ -418,17 +367,6 @@ console.log(`App running on port ${port}...`);
 
 ```
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2026.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2027.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2028.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2029.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2030.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2031.png)
 
 ---
 
@@ -517,7 +455,6 @@ data: null
 
 ---
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2032.png)
 
 ---
 
@@ -527,9 +464,7 @@ console.log(process.env)
 
 `npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev`
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2033.png)
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2034.png)
 
 ```
 > use natours-test   <- create a DB
@@ -556,7 +491,6 @@ db.tours.find({ $or: [ {price: {$lt: 5000}} , {rating: {$gte: 4.8}} ]})
 
 `npm i mongoose@5`
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2035.png)
 
 
 ```
@@ -588,9 +522,7 @@ testTour.save().then(doc=> {
 
 ---
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2036.png)
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2037.png)
 
 [Mongoose v6.0.12: Queries (mongoosejs.com)](https://mongoosejs.com/docs/queries.html)
 
@@ -616,7 +548,6 @@ testTour.save().then(doc=> {
 
 `npm i ndb --global`
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2038.png)
 
 ---
 
@@ -631,11 +562,6 @@ const passwordHash = await bcrypt.hash('Pa$$w0rd', 10);
 
 ```
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2039.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2040.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2041.png)
 
 `npm i jsonwebtoken`
 
@@ -672,7 +598,6 @@ Here, I have used the restrict the deletion of any tour to only 'admin' and 'lea
 
 I have checked that thus the current role using the middleware. If the role is true then only the next() middleware will execute.
 
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2042.png)
 
 ---
 
@@ -730,12 +655,6 @@ module.exports = sendEmail;
 
 ```
 
-[Node farm](https://www.notion.so/Node-farm-cf77f121738b4e9f9c07c007cc578399)
-
-[https://www.notion.so](https://www.notion.so)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2043.png)
-
 Rate Limiting
 
 `npm i express-rate-limit`
@@ -745,17 +664,5 @@ Data sanitize
 `npm I express-mongo-sanitize`
 
 `npm i xss-clean`
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2044.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2045.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2046.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2047.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2048.png)
-
-![Untitled](Node%20JS%203354e62e7a9547ba8d6d2e3405225515/Untitled%2049.png)
 
 
